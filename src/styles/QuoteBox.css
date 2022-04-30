@@ -5,6 +5,7 @@
   min-height: 10rem;
   box-shadow: 0 8px 13px 1px rgba(0, 0, 0, 0.667);
   background-color: rgba(255, 255, 255, 0.654);
+  flex-wrap: wrap;
 }
 
 p {
@@ -12,14 +13,17 @@ p {
 }
 
 .quote-text {
-  padding: 3rem;
+  padding: 2rem 2rem 2rem 0rem;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
 }
 
 .author-text {
   /* border: 1px solid black; */
-  padding: 2rem;
+  padding: 1rem;
   text-align: right;
   font-style: italic;
+  min-width: 20rem;
 }
 
 button {
@@ -36,6 +40,7 @@ button {
 span {
   font-size: 4rem;
   margin: 1rem 0rem 1rem 1rem;
+  /* border: 1px solid black; */
 }
 
 .container {
