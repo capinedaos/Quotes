@@ -1,11 +1,11 @@
 .quoteBox {
   /* border: 1px solid black; */
-  min-width: 20rem;
-  max-width: 40rem;
+  max-width: 50rem;
   min-height: 10rem;
   box-shadow: 0 8px 13px 1px rgba(0, 0, 0, 0.667);
-  background-color: rgba(255, 255, 255, 0.654);
+  background-color: white;
   flex-wrap: wrap;
+  border-radius: 5px;
 }
 
 p {
@@ -16,6 +16,8 @@ p {
   padding: 2rem 2rem 2rem 0rem;
   flex-wrap: wrap;
   /* border: 1px solid black; */
+  text-align: justify;
+  margin-left: 1rem;
 }
 
 .author-text {
@@ -23,7 +25,8 @@ p {
   padding: 1rem;
   text-align: right;
   font-style: italic;
-  min-width: 20rem;
+  width: 100%;
+  /* min-width: 20rem; */
 }
 
 button {
@@ -35,6 +38,7 @@ button {
   border: none;
   cursor: pointer;
   color: white;
+  user-select: none;
 }
 
 span {
@@ -45,4 +49,11 @@ span {
 
 .container {
   display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
