@@ -28,7 +28,11 @@ const QuoteBox = ({ changeQuote, quote, author }) => {
   document.body.style = `background: ${colors[randomColor]}`;
   return (
     <div className="main-container">
-      <Logo randomColor={randomColor} colors={colors} />
+      <Logo
+        randomColor={randomColor}
+        colors={colors}
+        delivery="First delivery"
+      />
       <div className="quoteBox" style={{ color: colors[randomColor] }}>
         <div className="container">
           <span>
